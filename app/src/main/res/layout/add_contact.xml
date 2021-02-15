@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_add_contact_title"
+        android:text="ADD CONTACT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_add_contact_name"
+        android:background="@android:color/transparent"
+        android:textSize="20sp"
+        android:gravity="top"
+        android:hint="CONTACT NAME"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_add_contact_email"
+        android:background="@android:color/transparent"
+        android:textSize="20sp"
+        android:gravity="top"
+        android:hint="CONTACT EMAIL"
+        android:paddingTop="10dp"
+        />
+</LinearLayout>
